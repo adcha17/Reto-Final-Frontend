@@ -1,0 +1,910 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Reto Final Frontend</title>
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+	<link rel="stylesheet" href="css/normalize.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/materialize.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+	rel="stylesheet">
+
+	<script src="js/vendor/modernizr-2.8.3.min.js"></script>
+	<script src="js/vendor/jquery-1.11.2.min.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/materialize.min.js"></script>
+</head>
+<body>
+	<header>
+		<div class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper light-green darken-1">
+					<a class="brand-logo center" href="#">Reto Final Frontend Materializecss</a>
+				</div>
+			</nav>
+		</div>
+		
+		
+		<ul id="slide-out" class="side-nav fixed">
+			<li>
+				<div class="userView">
+					<div class="background">
+						<img src="img/fondo.jpg">
+					</div>
+					<a href="#!user"><img class="circle" src="img/logo2.jpg"></a>
+					<a href="#!name"><span class="white-text name">Anibal Chacon</span></a>
+					<a href="#!email"><span class="white-text email">adcha17@gmail.com</span></a>
+				</div>
+			</li>
+			<li><a class="waves-effect url" href="#intro">Introduccion</a></li>
+			<li><a class="waves-effect url" href="#s1">HTML5</a></li>
+			<li><a class="waves-effect url" href="#s2">JavaScript</a></li>
+			<li><a class="waves-effect url" href="#s3">CSS</a></li>
+
+		</ul>   
+
+	</header>
+
+	<main>
+		<div class="container">
+			<div class="active" id="intro">
+				<div class="row">
+					<div class="carousel carousel-slider">
+						<a class="carousel-item"><img src="img/html5_logo.jpg"></a>
+						<a class="carousel-item"><img src="img/js_logo.png"></a>
+						<a class="carousel-item"><img src="img/css_logo.jpg"></a>
+
+					</div>
+				</div>
+				<div class="row">
+					<ul class="collapsible popout" data-collapsible="accordion">
+						<li>
+							<div class="collapsible-header"><i class="material-icons">verified_user</i>HTML5</div>
+							<div class="collapsible-body"><span>Es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: una «clásica», HTML (text/html), conocida como HTML5, y una variante XHTML conocida como sintaxis XHTML5 que deberá servirse con sintaxis XML (application/xhtml+xml).</span></div>
+						</li>
+						<li>
+							<div class="collapsible-header"><i class="material-icons">verified_user</i>JavaScript</div>
+							<div class="collapsible-body"><span>Es un lenguaje de programación interpretado, dialecto del estándar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, débilmente tipado y dinámico.</span></div>
+						</li>
+						<li>
+							<div class="collapsible-header"><i class="material-icons">verified_user</i>CSS</div>
+							<div class="collapsible-body"><span>Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado. Es muy usado para establecer el diseño visual de las páginas web, e interfaces de usuario escritas en HTML o XHTML; el lenguaje puede ser aplicado a cualquier documento XML, incluyendo XHTML, SVG, XUL, RSS, etcétera.</span></div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="" id="s1">
+				<h4>Articulos HTML5</h4>
+				<br>
+				<ul class="collection">
+					<li class="collection-item"><div>Interacción con el DOM<a href="#art1" class="secondary-content url"><i class="material-icons">send</i></a></div></li>
+					<li class="collection-item"><div>Elementos Estructurales<a href="#art2" class="secondary-content url"><i class="material-icons">send</i></a></div></li>
+					<li class="collection-item"><div>Elementos de Formulario<a href="#art3" class="secondary-content url"><i class="material-icons">send</i></a></div></li>
+					
+				</ul>
+			</div>
+			<div class="" id="s2">
+				<h4>Articulos Javascript</h4>
+				<br>
+				<ul class="collection">
+					<li class="collection-item"><div>JS Nativo<a href="#art4" class="secondary-content url"><i class="material-icons">send</i></a></div></li>
+					<li class="collection-item"><div>JQuery<a href="#art5" class="secondary-content url"><i class="material-icons">send</i></a></div></li>
+					<li class="collection-item"><div>Node<a href="#art6" class="secondary-content url"><i class="material-icons">send</i></a></div></li>
+					
+				</ul>
+			</div>
+			<div class="" id="s3">
+				<h4>Articulos CSS</h4>
+				<br>
+				<ul class="collection">
+					<li class="collection-item"><div>CSS<a href="#art7" class="secondary-content url"><i class="material-icons">send</i></a></div></li>
+					<li class="collection-item"><div>CSS3<a href="#art8" class="secondary-content url"><i class="material-icons">send</i></a></div></li>
+					<li class="collection-item"><div>CSS Positioning<a href="#art9" class="secondary-content url"><i class="material-icons">send</i></a></div></li>
+					
+				</ul>
+			</div>
+			<div id="art1">
+				<div class="row">
+					<div class="col s12">
+						<div class="card hoverable">
+							<div class="card-image">
+								<img class="materialboxed" data-caption="Interacción con el DOM" src="img/html_1.jpg">
+								<span class="card-title"> <blockquote>
+									Interacción con el DOM
+								</blockquote></span>
+							</div>
+							<div class="card-content">
+								<div class="right-align blue-text">17/09</div>
+								<br>
+								<p>I am a very simple card. I am good at containing small bits of information.
+									I am convenient because I require little markup to use effectively.</p>
+								</div>
+								<div class="card-action">
+									<div class="chip">
+										HTML
+										<i class="close material-icons">close</i>
+									</div>
+									<div class="chip">
+										HTML5
+										<i class="close material-icons">close</i>
+									</div>
+									<div class="chip">
+										Etiquetas
+										<i class="close material-icons">close</i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12">
+							<div class="card-panel yellow">
+								<div class="row">
+									<div class="col s6">
+										<div class="left-align green-text">usuario</div>
+									</div>
+									<div class="col s6">
+										<div class="right-align blue-text">17/09 17:55</div>
+									</div>									
+								</div>
+								<span class="white-text">I am a very simple card. I am good at containing small bits of information.
+									I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12">
+							<div class="card-panel teal">
+								<span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugit, maxime aperiam minima, voluptate dolores unde quas magni, molestiae modi praesentium placeat, ullam. In totam blanditiis quam similique quos explicabo.
+								</span>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col s12">
+							<div class="card-panel purple">								
+								<span class="white-text">
+									<h5>Proceda a dejar un comentario.</h5>
+								</span>
+								<div class="row">
+									<div class="input-field col s6">
+										<i class="material-icons prefix">account_circle</i>
+										<input id="icon_prefix" type="text" class="validate">
+										<label for="icon_prefix">Usuario</label>
+									</div>
+								</div>
+								<div class="row">
+									<form class="col s12">
+										<div class="row">
+											<div class="input-field col s12">
+												<i class="material-icons prefix">mode_edit</i>
+												<textarea id="textarea1" class="materialize-textarea"></textarea>
+												<label for="textarea1">Comentario</label>
+												<a class="waves-effect waves-light btn right"><i class="material-icons left">cloud</i>button</a>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="art2">
+					<div class="row">
+						<div class="col s12">
+							<div class="card hoverable">
+								<div class="card-image">
+									<img class="materialboxed" data-caption="Elementos Estructurales" src="img/html_2.jpg">
+									<span class="card-title"> <blockquote>
+										Elementos Estructurales
+									</blockquote></span>
+								</div>
+								<div class="card-content">
+									<div class="right-align blue-text">17/09</div>
+									<br>
+									<p>I am a very simple card. I am good at containing small bits of information.
+										I am convenient because I require little markup to use effectively.</p>
+									</div>
+									<div class="card-action">
+										<div class="chip">
+											HTML
+											<i class="close material-icons">close</i>
+										</div>
+										<div class="chip">
+											HTML5
+											<i class="close material-icons">close</i>
+										</div>
+										<div class="chip">
+											Etiquetas
+											<i class="close material-icons">close</i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12">
+								<div class="card-panel yellow">
+									<div class="row">
+										<div class="col s6">
+											<div class="left-align green-text">usuario</div>
+										</div>
+										<div class="col s6">
+											<div class="right-align blue-text">17/09 17:55</div>
+										</div>									
+									</div>
+									<span class="white-text">I am a very simple card. I am good at containing small bits of information.
+										I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12">
+								<div class="card-panel teal">
+									<span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugit, maxime aperiam minima, voluptate dolores unde quas magni, molestiae modi praesentium placeat, ullam. In totam blanditiis quam similique quos explicabo.
+									</span>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col s12">
+								<div class="card-panel purple">								
+									<span class="white-text">
+										<h5>Proceda a dejar un comentario.</h5>
+									</span>
+									<div class="row">
+										<div class="input-field col s6">
+											<i class="material-icons prefix">account_circle</i>
+											<input id="icon_prefix" type="text" class="validate">
+											<label for="icon_prefix">Usuario</label>
+										</div>
+									</div>
+									<div class="row">
+										<form class="col s12">
+											<div class="row">
+												<div class="input-field col s12">
+													<i class="material-icons prefix">mode_edit</i>
+													<textarea id="textarea1" class="materialize-textarea"></textarea>
+													<label for="textarea1">Comentario</label>
+													<a class="waves-effect waves-light btn right"><i class="material-icons left">cloud</i>button</a>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div id="art3">
+						<div class="row">
+							<div class="col s12">
+								<div class="card hoverable">
+									<div class="card-image">
+										<img class="materialboxed" data-caption="Elementos de Formulario" src="img/html_3.jpg">
+										<span class="card-title"> <blockquote>
+											Elementos de Formulario
+										</blockquote></span>
+									</div>
+									<div class="card-content">
+										<div class="right-align blue-text">17/09</div>
+										<br>
+										<p>I am a very simple card. I am good at containing small bits of information.
+											I am convenient because I require little markup to use effectively.</p>
+										</div>
+										<div class="card-action">
+											<div class="chip">
+												HTML
+												<i class="close material-icons">close</i>
+											</div>
+											<div class="chip">
+												HTML5
+												<i class="close material-icons">close</i>
+											</div>
+											<div class="chip">
+												Etiquetas
+												<i class="close material-icons">close</i>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s12">
+									<div class="card-panel yellow">
+										<div class="row">
+											<div class="col s6">
+												<div class="left-align green-text">usuario</div>
+											</div>
+											<div class="col s6">
+												<div class="right-align blue-text">17/09 17:55</div>
+											</div>									
+										</div>
+										<span class="white-text">I am a very simple card. I am good at containing small bits of information.
+											I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s12">
+									<div class="card-panel teal">
+										<span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugit, maxime aperiam minima, voluptate dolores unde quas magni, molestiae modi praesentium placeat, ullam. In totam blanditiis quam similique quos explicabo.
+										</span>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col s12">
+									<div class="card-panel purple">								
+										<span class="white-text">
+											<h5>Proceda a dejar un comentario.</h5>
+										</span>
+										<div class="row">
+											<div class="input-field col s6">
+												<i class="material-icons prefix">account_circle</i>
+												<input id="icon_prefix" type="text" class="validate">
+												<label for="icon_prefix">Usuario</label>
+											</div>
+										</div>
+										<div class="row">
+											<form class="col s12">
+												<div class="row">
+													<div class="input-field col s12">
+														<i class="material-icons prefix">mode_edit</i>
+														<textarea id="textarea1" class="materialize-textarea"></textarea>
+														<label for="textarea1">Comentario</label>
+														<a class="waves-effect waves-light btn right"><i class="material-icons left">cloud</i>button</a>
+													</div>
+												</div>
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<div id="art4">
+							<div class="row">
+								<div class="col s12">
+									<div class="card hoverable">
+										<div class="card-image">
+											<img class="materialboxed" data-caption="JS Nativo" src="img/js_logo.png">
+											<span class="card-title"> <blockquote>
+												JS Nativo
+											</blockquote></span>
+										</div>
+										<div class="card-content">
+											<div class="right-align blue-text">17/09</div>
+											<br>
+											<p>I am a very simple card. I am good at containing small bits of information.
+												I am convenient because I require little markup to use effectively.</p>
+											</div>
+											<div class="card-action">
+												<div class="chip">
+													JS
+													<i class="close material-icons">close</i>
+												</div>
+												<div class="chip">
+													JQuery
+													<i class="close material-icons">close</i>
+												</div>
+												<div class="chip">
+													Node
+													<i class="close material-icons">close</i>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s12">
+										<div class="card-panel yellow">
+											<div class="row">
+												<div class="col s6">
+													<div class="left-align green-text">usuario</div>
+												</div>
+												<div class="col s6">
+													<div class="right-align blue-text">17/09 17:55</div>
+												</div>									
+											</div>
+											<span class="white-text">I am a very simple card. I am good at containing small bits of information.
+												I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s12">
+										<div class="card-panel teal">
+											<span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugit, maxime aperiam minima, voluptate dolores unde quas magni, molestiae modi praesentium placeat, ullam. In totam blanditiis quam similique quos explicabo.
+											</span>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col s12">
+										<div class="card-panel purple">								
+											<span class="white-text">
+												<h5>Proceda a dejar un comentario.</h5>
+											</span>
+											<div class="row">
+												<div class="input-field col s6">
+													<i class="material-icons prefix">account_circle</i>
+													<input id="icon_prefix" type="text" class="validate">
+													<label for="icon_prefix">Usuario</label>
+												</div>
+											</div>
+											<div class="row">
+												<form class="col s12">
+													<div class="row">
+														<div class="input-field col s12">
+															<i class="material-icons prefix">mode_edit</i>
+															<textarea id="textarea1" class="materialize-textarea"></textarea>
+															<label for="textarea1">Comentario</label>
+															<a class="waves-effect waves-light btn right"><i class="material-icons left">cloud</i>button</a>
+														</div>
+													</div>
+												</form>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div id="art5">
+								<div class="row">
+									<div class="col s12">
+										<div class="card hoverable">
+											<div class="card-image">
+												<img class="materialboxed" data-caption="JQuery" src="img/jquery.png">
+												<span class="card-title"> <blockquote>
+													Jquery
+												</blockquote></span>
+											</div>
+											<div class="card-content">
+												<div class="right-align blue-text">17/09</div>
+												<br>
+												<p>I am a very simple card. I am good at containing small bits of information.
+													I am convenient because I require little markup to use effectively.</p>
+												</div>
+												<div class="card-action">
+													<div class="chip">
+														JS
+														<i class="close material-icons">close</i>
+													</div>
+													<div class="chip">
+														JQuery
+														<i class="close material-icons">close</i>
+													</div>
+													<div class="chip">
+														Node
+														<i class="close material-icons">close</i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col s12">
+											<div class="card-panel yellow">
+												<div class="row">
+													<div class="col s6">
+														<div class="left-align green-text">usuario</div>
+													</div>
+													<div class="col s6">
+														<div class="right-align blue-text">17/09 17:55</div>
+													</div>									
+												</div>
+												<span class="white-text">I am a very simple card. I am good at containing small bits of information.
+													I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col s12">
+											<div class="card-panel teal">
+												<span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugit, maxime aperiam minima, voluptate dolores unde quas magni, molestiae modi praesentium placeat, ullam. In totam blanditiis quam similique quos explicabo.
+												</span>
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col s12">
+											<div class="card-panel purple">								
+												<span class="white-text">
+													<h5>Proceda a dejar un comentario.</h5>
+												</span>
+												<div class="row">
+													<div class="input-field col s6">
+														<i class="material-icons prefix">account_circle</i>
+														<input id="icon_prefix" type="text" class="validate">
+														<label for="icon_prefix">Usuario</label>
+													</div>
+												</div>
+												<div class="row">
+													<form class="col s12">
+														<div class="row">
+															<div class="input-field col s12">
+																<i class="material-icons prefix">mode_edit</i>
+																<textarea id="textarea1" class="materialize-textarea"></textarea>
+																<label for="textarea1">Comentario</label>
+																<a class="waves-effect waves-light btn right"><i class="material-icons left">cloud</i>button</a>
+															</div>
+														</div>
+													</form>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
+								<div id="art6">
+									<div class="row">
+										<div class="col s12">
+											<div class="card hoverable">
+												<div class="card-image">
+													<img class="materialboxed" data-caption="Node" src="img/node.png">
+													<span class="card-title"> <blockquote>
+														Node
+													</blockquote></span>
+												</div>
+												<div class="card-content">
+													<div class="right-align blue-text">17/09</div>
+													<br>
+													<p>I am a very simple card. I am good at containing small bits of information.
+														I am convenient because I require little markup to use effectively.</p>
+													</div>
+													<div class="card-action">
+														<div class="chip">
+															JS
+															<i class="close material-icons">close</i>
+														</div>
+														<div class="chip">
+															JQuery
+															<i class="close material-icons">close</i>
+														</div>
+														<div class="chip">
+															Node
+															<i class="close material-icons">close</i>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col s12">
+												<div class="card-panel yellow">
+													<div class="row">
+														<div class="col s6">
+															<div class="left-align green-text">usuario</div>
+														</div>
+														<div class="col s6">
+															<div class="right-align blue-text">17/09 17:55</div>
+														</div>									
+													</div>
+													<span class="white-text">I am a very simple card. I am good at containing small bits of information.
+														I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col s12">
+												<div class="card-panel teal">
+													<span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugit, maxime aperiam minima, voluptate dolores unde quas magni, molestiae modi praesentium placeat, ullam. In totam blanditiis quam similique quos explicabo.
+													</span>
+												</div>
+											</div>
+										</div>
+										<div class="row">
+											<div class="col s12">
+												<div class="card-panel purple">								
+													<span class="white-text">
+														<h5>Proceda a dejar un comentario.</h5>
+													</span>
+													<div class="row">
+														<div class="input-field col s6">
+															<i class="material-icons prefix">account_circle</i>
+															<input id="icon_prefix" type="text" class="validate">
+															<label for="icon_prefix">Usuario</label>
+														</div>
+													</div>
+													<div class="row">
+														<form class="col s12">
+															<div class="row">
+																<div class="input-field col s12">
+																	<i class="material-icons prefix">mode_edit</i>
+																	<textarea id="textarea1" class="materialize-textarea"></textarea>
+																	<label for="textarea1">Comentario</label>
+																	<a class="waves-effect waves-light btn right"><i class="material-icons left">cloud</i>button</a>
+																</div>
+															</div>
+														</form>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+									<div id="art7">
+										<div class="row">
+											<div class="col s12">
+												<div class="card hoverable">
+													<div class="card-image">
+														<img class="materialboxed" data-caption="Aplicación de Estilos" src="img/css.png">
+														<span class="card-title"> <blockquote>
+															Aplicación de Estilos
+														</blockquote></span>
+													</div>
+													<div class="card-content">
+														<div class="right-align blue-text">17/09</div>
+														<br>
+														<p>I am a very simple card. I am good at containing small bits of information.
+															I am convenient because I require little markup to use effectively.</p>
+														</div>
+														<div class="card-action">
+															<div class="chip">
+																CSS
+																<i class="close material-icons">close</i>
+															</div>
+															<div class="chip">
+																CSS3
+																<i class="close material-icons">close</i>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col s12">
+													<div class="card-panel yellow">
+														<div class="row">
+															<div class="col s6">
+																<div class="left-align green-text">usuario</div>
+															</div>
+															<div class="col s6">
+																<div class="right-align blue-text">17/09 17:55</div>
+															</div>									
+														</div>
+														<span class="white-text">I am a very simple card. I am good at containing small bits of information.
+															I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+														</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col s12">
+													<div class="card-panel teal">
+														<span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugit, maxime aperiam minima, voluptate dolores unde quas magni, molestiae modi praesentium placeat, ullam. In totam blanditiis quam similique quos explicabo.
+														</span>
+													</div>
+												</div>
+											</div>
+											<div class="row">
+												<div class="col s12">
+													<div class="card-panel purple">								
+														<span class="white-text">
+															<h5>Proceda a dejar un comentario.</h5>
+														</span>
+														<div class="row">
+															<div class="input-field col s6">
+																<i class="material-icons prefix">account_circle</i>
+																<input id="icon_prefix" type="text" class="validate">
+																<label for="icon_prefix">Usuario</label>
+															</div>
+														</div>
+														<div class="row">
+															<form class="col s12">
+																<div class="row">
+																	<div class="input-field col s12">
+																		<i class="material-icons prefix">mode_edit</i>
+																		<textarea id="textarea1" class="materialize-textarea"></textarea>
+																		<label for="textarea1">Comentario</label>
+																		<a class="waves-effect waves-light btn right"><i class="material-icons left">cloud</i>button</a>
+																	</div>
+																</div>
+															</form>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+
+										<div id="art8">
+											<div class="row">
+												<div class="col s12">
+													<div class="card hoverable">
+														<div class="card-image">
+															<img class="materialboxed" data-caption="Estilos de Borde, Dimensiones y Márgenes" src="img/css3_2.png">
+															<span class="card-title"> <blockquote>
+																Estilos de Borde, Dimensiones y Márgenes
+															</blockquote></span>
+														</div>
+														<div class="card-content">
+															<div class="right-align blue-text">17/09</div>
+															<br>
+															<p>I am a very simple card. I am good at containing small bits of information.
+																I am convenient because I require little markup to use effectively.</p>
+															</div>
+															<div class="card-action">
+																<div class="chip">
+																	CSS
+																	<i class="close material-icons">close</i>
+																</div>
+																<div class="chip">
+																	CSS3
+																	<i class="close material-icons">close</i>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col s12">
+														<div class="card-panel yellow">
+															<div class="row">
+																<div class="col s6">
+																	<div class="left-align green-text">usuario</div>
+																</div>
+																<div class="col s6">
+																	<div class="right-align blue-text">17/09 17:55</div>
+																</div>									
+															</div>
+															<span class="white-text">I am a very simple card. I am good at containing small bits of information.
+																I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+															</span>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col s12">
+														<div class="card-panel teal">
+															<span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugit, maxime aperiam minima, voluptate dolores unde quas magni, molestiae modi praesentium placeat, ullam. In totam blanditiis quam similique quos explicabo.
+															</span>
+														</div>
+													</div>
+												</div>
+												<div class="row">
+													<div class="col s12">
+														<div class="card-panel purple">								
+															<span class="white-text">
+																<h5>Proceda a dejar un comentario.</h5>
+															</span>
+															<div class="row">
+																<div class="input-field col s6">
+																	<i class="material-icons prefix">account_circle</i>
+																	<input id="icon_prefix" type="text" class="validate">
+																	<label for="icon_prefix">Usuario</label>
+																</div>
+															</div>
+															<div class="row">
+																<form class="col s12">
+																	<div class="row">
+																		<div class="input-field col s12">
+																			<i class="material-icons prefix">mode_edit</i>
+																			<textarea id="textarea1" class="materialize-textarea"></textarea>
+																			<label for="textarea1">Comentario</label>
+																			<a class="waves-effect waves-light btn right"><i class="material-icons left">cloud</i>button</a>
+																		</div>
+																	</div>
+																</form>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+											<div id="art9">
+												<div class="row">
+													<div class="col s12">
+														<div class="card hoverable">
+															<div class="card-image">
+																<img class="materialboxed" data-caption="CSS Positioning	" src="img/css3.png">
+																<span class="card-title"> <blockquote>
+																	CSS Positioning
+																</blockquote></span>
+															</div>
+															<div class="card-content">
+																<div class="right-align blue-text">17/09</div>
+																<br>
+																<p>I am a very simple card. I am good at containing small bits of information.
+																	I am convenient because I require little markup to use effectively.</p>
+																</div>
+																<div class="card-action">
+																	<div class="chip">
+																		CSS
+																		<i class="close material-icons">close</i>
+																	</div>
+																	<div class="chip">
+																		CSS3
+																		<i class="close material-icons">close</i>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col s12">
+															<div class="card-panel yellow">
+																<div class="row">
+																	<div class="col s6">
+																		<div class="left-align green-text">usuario</div>
+																	</div>
+																	<div class="col s6">
+																		<div class="right-align blue-text">17/09 17:55</div>
+																	</div>									
+																</div>
+																<span class="white-text">I am a very simple card. I am good at containing small bits of information.
+																	I am convenient because I require little markup to use effectively. I am similar to what is called a panel in other frameworks.
+																</span>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col s12">
+															<div class="card-panel teal">
+																<span class="white-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis fugit, maxime aperiam minima, voluptate dolores unde quas magni, molestiae modi praesentium placeat, ullam. In totam blanditiis quam similique quos explicabo.
+																</span>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col s12">
+															<div class="card-panel purple">								
+																<span class="white-text">
+																	<h5>Proceda a dejar un comentario.</h5>
+																</span>
+																<div class="row">
+																	<div class="input-field col s6">
+																		<i class="material-icons prefix">account_circle</i>
+																		<input id="icon_prefix" type="text" class="validate">
+																		<label for="icon_prefix">Usuario</label>
+																	</div>
+																</div>
+																<div class="row">
+																	<form class="col s12">
+																		<div class="row">
+																			<div class="input-field col s12">
+																				<i class="material-icons prefix">mode_edit</i>
+																				<textarea id="textarea1" class="materialize-textarea"></textarea>
+																				<label for="textarea1">Comentario</label>
+																				<a class="waves-effect waves-light btn right"><i class="material-icons left">cloud</i>button</a>
+																			</div>
+																		</div>
+																	</form>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+
+
+										</main>
+
+										<footer>
+											<div class="footer-copyright grey darken-2"><br>
+												<div class="container">
+													© 2017 Core Upgrade
+													<a class="black-text text-lighten-4 right">adcha17@gmail.com</a>
+												</div><br>
+											</div>
+										</footer>
+
+										<script src="js/plugins.js"></script>
+
+
+
+
+									</body>
+									</html>
